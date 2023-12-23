@@ -32,12 +32,7 @@ module licensepool::contentlicense {
         counter: u64,
         licenses: ObjectTable<u64, ContentLicense>, 
     }
-    /*
-    public event ContentSubmissionEvent(id: UID, user_id: address);
-     public event LicensePurchaseEvent(buyer_id: address, id: UID);
- public event RoyaltyDistributionEvent(content_license_id: UID, royalty_amount: u64);
-    public event ContentUsageEvent(content_license_id: UID, usage_data: vector<u8>);
-    */
+
     // This event will be emitted in the create_license function
      struct LicenseCreated has copy,drop{
         id: ID,
