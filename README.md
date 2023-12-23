@@ -21,11 +21,11 @@ This is a blockchain smart contract for managing licenses on the SUI blockchain.
 
 ## Developers can create license having the following information:
 
--`name`
--`address` (this is the Sui address of the developer)
--`content_url`(this is url of the digital content)
--`license terms` (this is where developers briefly mention the terms of license)
--`royalty agreement`(the agreement between owner and other parties)
+-`name`</br>
+-`address` (this is the Sui address of the developer)</br>
+-`content_url`(this is url of the digital content)</br>
+-`license terms` (this is where developers briefly mention the terms of license)</br>
+-`royalty agreement`(the agreement between owner and other parties)</br>
 -`is_active` (this field shows if the license is active or not)
 
 
